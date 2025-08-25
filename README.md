@@ -35,3 +35,13 @@ By mapping arcs of emotion (hope, tension, triumph) into melodic tokens, the sys
 - Experiment with orchestral layering for dynamic playback  
 - Integrate with DAWs (Logic Pro, Ableton, Cubase) for demo scoring  
 
+---
+
+## ▶️ Usage
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/pshivaanichauhan/disney-pixar-storybeats.git
+   cd disney-pixar-storybeats
+pip install -r requirements.txt
+jupyter notebook notebooks/
