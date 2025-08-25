@@ -23,4 +23,15 @@ By mapping arcs of emotion (hope, tension, triumph) into melodic tokens, the sys
 - **Music21** for motif encoding and analysis  
 - **Jupyter Notebooks** for experiments  
 - **MIDI/ABC Exporters** for DAW integration  
+---
+
+## 📂 Repo Structure
+
+---
+
+## 🔮 Future Work
+- Expand training data with more Disney–Pixar scripts  
+- Add emotion heatmaps alongside motifs  
+- Experiment with orchestral layering for dynamic playback  
+- Integrate with DAWs (Logic Pro, Ableton, Cubase) for demo scoring  
 
