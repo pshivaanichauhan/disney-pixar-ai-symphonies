@@ -1,47 +1,101 @@
-# disney-pixar-storybeats
-Story Beats to Music — Map narrative arcs into motif tokens that adaptively score emotion on screen.
-📖 Overview
-This project explores how narrative story beats from Disney–Pixar films can be translated into adaptive music motifs using AI.
-By mapping arcs of emotion (hope, tension, triumph) into melodic tokens, the system demonstrates how machine learning can bridge storytelling and symphonic design.---
+# 🎬 Disney·Pixar (Advanced Storybeats + AI Music Motifs)
 
-## 🚀 Workflow
-1. **Story Beat Extraction**  
-   - Parse screenplays and identify emotional arcs.  
-   - Break down into labeled narrative tokens (hope, tension, resolution).  
+This project translates **Disney·Pixar storybeats** into **AI-generated musical motifs**, demonstrating **graduate-level AI methods** in symbolic music analysis. It reflects **Carnegie Hall’s Five Core Pillars**:
 
-2. **Motif Generation**  
-   - Train ML models (Python + PyTorch) to map tokens → musical motifs.  
-   - Encode motifs into MIDI/ABC notation.  
+- 🎭 **Expressive Nuance (CV)** → emotion heatmaps from frames  
+- 🤝 **Dynamic Collaboration (Game Theory)** → AI + human motif feedback  
+- 🎨 **Stylistic Authenticity (ML)** → Pixar style + Beethoven depth  
+- ⚙️ **Precision & Scalability (RPA)** → automated beat-to-motif pipeline  
+- 📐 **Mathematical Depth (Algorithms & OOP)** → counterpoint, syncopation, metric modulation  
 
-3. **Adaptive Playback**  
-   - Real-time motif switching to reflect shifts in story beats.  
-   - Supports orchestral layering and hybrid scoring.  ---
+---
 
-## 🛠 Tech Stack
-- **Python 3.10**  
-- **PyTorch / TensorFlow** for ML  
-- **Music21** for motif encoding and analysis  
-- **Jupyter Notebooks** for experiments  
-- **MIDI/ABC Exporters** for DAW integration  
+## 🔧 Advanced Components
+
+### 1. Dynamic Programming (DP Segmentation)
+- Find optimal segmentation of motifs across arcs (hope → tension → resolution).  
+- 📦 Output: segmentation timeline overlaid on motifs.  
+
+### 2. Deep Learning (LSTM / Transformers)
+- Predict motif evolution (variation, repetition, resolution).  
+- 📦 Output: transformed motifs in MIDI.  
+
+### 3. Multi-Layer Emotion Classifier
+- NN classifier (hope/tension/resolution) on symbolic datasets.  
+- 📦 Output: classifier probabilities feeding into motif heatmaps.  
+
+### 4. Stylistic Authenticity (ML Blend)
+- Train on Pixar scores + Beethoven repertoire.  
+- 📦 Output: authenticity scorecard for every motif.  
+
+### 5. Mathematical Depth (Algorithms/OOP)
+- Recursive counterpoint, syncopation, metric modulation.  
+- 📦 Output: “Pixar Rhythm Bank” of algorithmic variations.  
+
 ---
 
 ## 📂 Repo Structure
 
+```
+disney-pixar-storybeats/
+│── README.md
+│── data/
+│   ├── scripts/
+│   ├── storyboards/
+│   └── motifs/
+│── notebooks/
+│   ├── dp_segmentation.ipynb
+│   ├── lstm_transformer_evolution.ipynb
+│   └── emotion_classifier.ipynb
+│── outputs/
+│   ├── heatmaps/
+│   ├── motif_timelines/
+│   ├── classifier_probs/
+│   └── evolved_midis/
+│── src/
+│   ├── cv_emotion_detector.py
+│   ├── motif_generator.py
+│   ├── game_theory_balancer.py
+│   ├── rpa_automation.py
+│   └── rhythm_algorithms.py
+```
+
 ---
 
-## 🔮 Future Work
-- Expand training data with more Disney–Pixar scripts  
-- Add emotion heatmaps alongside motifs  
-- Experiment with orchestral layering for dynamic playback  
-- Integrate with DAWs (Logic Pro, Ableton, Cubase) for demo scoring  
+## 📝 Usage
+
+### Install
+```bash
+git clone https://github.com/pshivaanichauhan/disney-pixar-storybeats.git
+cd disney-pixar-storybeats
+pip install -r requirements.txt jupyter
+```
+
+### Run DP Segmentation
+```bash
+jupyter notebook notebooks/dp_segmentation.ipynb
+```
+
+### Run LSTM/Transformer Evolution
+```bash
+jupyter notebook notebooks/lstm_transformer_evolution.ipynb
+```
+
+### Run Emotion Classifier
+```bash
+jupyter notebook notebooks/emotion_classifier.ipynb
+```
 
 ---
 
-## ▶️ Usage
+## 📚 References & Learning Supports
+- Stanford — *Algorithms Specialization*  
+- IBM — *ML Professional Certificate (Honors)*  
+- Columbia University — *First Principles of Computer Vision*  
+- UT Austin — *Linear Algebra & Advanced LAFF*  
+- Coursera — *Compose & Program Music in Python (EarSketch)*  
+- WiDS 2022 Thesis — *Energy ML Research*  
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/pshivaanichauhan/disney-pixar-storybeats.git
-   cd disney-pixar-storybeats
-pip install -r requirements.txt
-jupyter notebook notebooks/
+---
+
+✅ This repo demonstrates **advanced AI methods in symbolic music**, not a toy project.  
