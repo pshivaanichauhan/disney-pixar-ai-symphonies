@@ -58,6 +58,17 @@ Imagine every Disney & Pixar story arc as a **symphony**:
 - **🥁 Rhythm Banks** = heartbeat of the story  
 - **🎨 Heatmaps & Timelines** = emotion & pacing  
 - **🎻 Orchestration** = guided by Carnegie Hall’s Five Pillars  
+## 🎬 Disney/Pixar Animation & Rhythm Flow  
+
+Disney & Pixar storytelling aligns **visual animation beats** with **musical rhythm arcs**.  
+This creates what we call a *Pixar Rhythm*, captured by 4 components:  
+
+1. **Storybeat Timing ⏱️** – narrative arcs broken into Pixar’s 7 beats (e.g., *Once upon a time… Until finally…*).  
+2. **Animation Pacing 🎞️** – frame speed, scene changes, and motion intensity shaping emotional rhythm.  
+3. **Rhythm Banks 🥁** – musical pulses that mirror pacing (tension/release, heartbeat vs. breath).  
+4. **Emotion Heatmaps 🎨** – AI-mapped intensity curves across story arcs, orchestrated through motifs.  
+
+✨ Together, these turn animation into **living AI symphonies** — where story, motion, and music lock into one rhythm.
 
 This project bridges **Hollywood storytelling** with **Carnegie Hall rigor**, transforming narrative beats into **living AI symphonies**.  
 
