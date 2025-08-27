@@ -1,4 +1,4 @@
-\# 🎬 Disney & Pixar (Advanced Storybeats + AI Music Themes)
+# 🎬 Disney & Pixar (Advanced Storybeats + AI Music Themes)
 
 This project translates **Disney & Pixar storybeats** into **AI–generated musical themes**, demonstrating graduate-level AI methods in symbolic music analysis.  
 It reflects **Carnegie Hall’s Five Core Pillars**:
@@ -87,4 +87,4 @@ An exploration of AI’s ability to generate emotionally adaptive soundtracks at
 ---
 
 ## 📜 License
-This project is released under the MIT License.
+This project is released under the MIT License.  
