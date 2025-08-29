@@ -52,18 +52,10 @@ At the center: **Storytelling + Technology + Business Strategy**.
 
 ---
 
-## 📅 Series Roadmap
-
-- **Day 1** → Disney–Pixar Innovation Triangle ✅  
-- **Day 2** → Pixar Storytelling Map  
-- **Day 3+** → AI pipelines, IP strategy, global media  
-
----
-
 ## 🎯 Vision
 
 Merging Disney animation arcs and Pixar narrative motifs with Beethoven-style symphonic techniques.  
-An exploration of AI’s ability to generate emotionally adaptive soundtracks at cinematic and symphonic scale.
+An exploration of AI’s ability to generate emotionally adaptive soundtracks at cinematic and symphonic scale.  
 
 ---
 
