@@ -1,0 +1,35 @@
+name: build-and-verify
+on: [push, pull_request]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt
+      - name: Run tests
+        run: pytest -q --maxfail=1 --disable-warnings --durations=10
+      - name: Build artifacts
+        run: |
+          python ml_style/infer.py --out outputs/score.mid
+          python rpa_orchestration/build_parts.py --in outputs/score.mid --out outputs/score.musicxml
+          python oop_counterpoint/render_audio.py --in outputs/score.mid --out outputs/audio_preview.wav
+          python cv/plots.py --in outputs/score.musicxml --out outputs/figures
+      - name: Verify artifacts exist
+        run: |
+          test -s outputs/score.musicxml
+          test -s outputs/audio_preview.wav
+          test -d outputs/figures
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: disney-pixar-outputs
+          path: |
+            outputs/score.musicxml
+            outputs/audio_preview.wav
+            outputs/figures
